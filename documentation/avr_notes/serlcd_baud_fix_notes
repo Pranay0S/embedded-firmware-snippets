@@ -1,0 +1,9 @@
+# SerLCD SPI Command Sender
+
+Small AVR C utility for sending a command sequence to a SparkFun SerLCD-style display over SPI.
+
+This snippet was created as a quick hardware recovery/configuration utility while working with a SparkFun SerLCD / OpenLCD-style display. It initializes SPI0 on an AVR DB-style microcontroller and sends a two-byte command sequence:
+
+```c
+0x7C
+0x0D
